@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Floating Video for Brave",
+  "version": "0.1.1",
+  "description": "Open videos in Picture-in-Picture from the toolbar or a video hover button.",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_title": "Toggle video Picture-in-Picture" },
+  "background": { "service_worker": "background.js" }
+}
